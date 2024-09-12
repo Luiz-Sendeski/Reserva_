@@ -1,0 +1,216 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-center {
+    min-height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+.container-center form {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #faf7f7;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #faf7f7;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+form > h2 {
+    color: #6a6a6a;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+form > div {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+form > div > label {
+    font-weight: 700;
+    display: block;
+    padding-bottom: 5px;
+    color: #6a6a6a;
+}
+
+form > div > input,
+form > div > select,
+form > div > textarea {
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form > div > textarea {
+    resize: none;
+    height: auto;
+}
+
+form > div > button {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #0457d3;
+    border: 0;
+    color: white;
+}
+
+form > div > button:hover {
+    background-color: #055cde;
+    cursor: pointer;
+}
+
+form > div > span {
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: #505050;
+    color: white;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.menu > li {
+    margin-right: 20px;
+}
+
+.menu > li:last-child {
+    margin-left: auto;
+}
+
+.menu > li > a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.menu > li > a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border: 0px;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table > thead {
+    background-color: #c7c4c4;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase !important;
+}
+
+table td {
+    padding: 10px 5px;
+}
+
+table td:first-child {
+    width: 70px;
+    text-align: center;
+}
+
+table td:last-child {
+    width: 150px;
+    text-align: center;
+}
+
+table td:last-child > a {
+    text-transform: lowercase !important;
+    text-decoration: none;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+.btn-editar {
+    background-color: #ecae02;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.btn-editar:hover {
+    background-color: #f7b705;
+}
+
+.btn-excluir {
+    background-color: #d30404;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.btn-excluir:hover {
+    background-color: #ea0404;
+}
+
+.btn-salvar {
+    display: inline-flex;
+    margin: auto 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 800;
+    background-color: #02af44;
+    color: white;
+}
+
+.btn-salvar:hover {
+    background-color: #05c44e;
+    cursor: pointer;
+}
+
+.mensagem_sucesso {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #8ef1b4;
+    color: #02af44;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mensagem_erro {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ff0000;
+    color: #880202;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.esqueceu-senha {
+    text-align: right;
+    font-size: 10px;
+}
